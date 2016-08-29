@@ -1,0 +1,107 @@
+// Common 
+body, html
+	margin: 0
+	padding: 0
+	height: 100%
+body
+	background-color: #000
+.page
+	height: 100%
+	overflow-x: hidden
+	font:
+		family: Corporate, OpenSans, serif
+.bgvideo
+	display: none
+	position: fixed
+	top: 0
+	left: 0
+	min-height: 100%
+	min-width: 100%
+	height: auto
+	width: auto
+	z-index: 1
+// Header
+.header
+	padding-top: 2em
+	padding-bottom: 2em
+	.brand-logo
+		display: inline-block
+		float: left
+		margin-left: 5em
+	.time
+		display: inline-block
+		color: white
+		margin-right: 2em
+		text-align: center
+		font-size: 3em
+		float: right
+// Main
+.main
+	margin: 0
+	padding-top: 5em
+	.warning
+		position: relative
+		width: 70%
+		background-color: #fff
+		color: #000
+		margin-bottom: 0.5em
+		vertical-align: center
+		text-align: center;
+		font-size: 3em
+		border-left: 0.2em solid #ccc
+		margin: auto;
+	.worker
+		display: inline-block
+		text-align: center
+		width: 43%
+		padding: 0
+		.worker-personal 
+			margin-bottom: 3em
+			.worker-avatar
+				width: 6em
+				height: 6em 
+			.worker-name
+				font-size: 1.8em
+				color: #fff
+		.worker-order
+			position: relative
+			width: 100%
+			background-color: #fff
+			color: #000
+			margin-bottom: 0.5em
+			height: 5em
+			.order-details
+				vertical-align: center
+				font-size: 1.3em
+				border-left: 0.4em solid #ccc
+				td
+					height: 4em
+					padding-left: 0.2em
+					padding-right: 0.2em
+					border-right: 0.01em solid #ccc					
+				td:last-child
+					border: none
+				.car-number
+					width: 25%
+					padding-left: 2%
+					padding-right: 2%
+					table
+						width: 100% 
+					td
+						height: 1em
+						width: 2em
+						border: 1px solid #ccc
+					.region
+						font-size: 0.8em
+					.flag
+						background-color: #ccc
+				.condition
+					width: 45%
+				.start-repair
+					width: 15%
+				.finish-repair
+					width: 15%
+@media screen and (max-width: 1360px)
+	.worker
+		
+

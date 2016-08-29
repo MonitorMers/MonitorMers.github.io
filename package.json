@@ -1,0 +1,41 @@
+{
+  "name": "WindowForMers",
+  "version": "0.0.0",
+  "description": "Window for wainting cunsumers",
+  "main": "app/index.html",
+  "dependencies": {
+    "gulp": "~3.9.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "~2.3.2",
+    "gulp": "~3.9.1",
+    "browser-sync": "~2.13.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-uglifyjs": "~0.6.2",
+    "gulp-rename": "~1.2.2",
+    "gulp-cssnano": "~2.1.2",
+    "del": "~2.2.1",
+    "imagemin-pngquant": "~5.0.0",
+    "gulp-imagemin": "~3.0.2",
+    "gulp-cache": "~0.4.5",
+    "gulp-autoprefixer": "~3.1.0",
+    "gulp-jade": "~1.1.0",
+    "jade": "~1.11.0",
+    "chai": "~3.5.0",
+    "mocha": "~2.5.3",
+    "nw-builder": "~2.2.7"
+  },
+  "window": {
+    "title": "Monitor",
+    "toolbar": false,
+    "frame": true,
+    "fullscreen": true,
+    "width": 800,
+    "height": 500
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JackyCoins",
+  "license": "BSD-2-Clause"
+}

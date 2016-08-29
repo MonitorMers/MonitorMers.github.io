@@ -1,0 +1,109 @@
+<rss version="2.0">\
+						 <worker>
+						 	<personality>
+						 		<avatar>Каверин</avatar>
+						 		<name>Олег</name>
+						 	</personality>
+						 	<orders>
+						 		<order>
+						 			<owner-name>Тарасюк Е.М.</owner-name>
+						 			<car-name>C 250 Седан, гос. номер C400EC123</car-name>
+						 			<start-repair>-</start-repair>
+						 			<condition>Ожидание приема</condition>
+						 			<finish-repair>19:30</finish-repair>
+						 		</order>
+						 		<order>
+						 			<owner-name>Котикова Е.А.</owner-name>
+						 			<car-name>GLS 350 BlueTEC 4MATIC, гос. номер E411KX23</car-name>
+						 			<start-repair>12:40</start-repair>
+						 			<condition></condition>
+						 			<finish-repair>14:00</finish-repair>
+						 		</order>
+						 		<order>
+						 			<owner-name>Даурова Т.Н.</owner-name>
+						 			<car-name>S 400 4MATIC, гос. номер P093PP93</car-name>
+						 			<start-repair>16:00</start-repair>
+						 			<condition></condition>
+						 			<finish-repair>17:00</finish-repair>
+						 		</order>
+						 		<order>
+						 			<owner-name>Чапурин В.М.</owner-name>
+						 			<car-name>GLK 220 CDI 4MATIC, гос. номер Нет</car-name>
+						 			<start-repair>17:00</start-repair>
+						 			<condition>Согласование с клиентом</condition>
+						 			<finish-repair>20:00</finish-repair>
+						 		</order>
+						 	</orders>
+						 </worker>
+						 <worker>
+						 	<personality>
+						 		<avatar>Альшанов</avatar>
+						 		<name>Владимир</name>
+						 	</personality>
+						 	<orders>
+						 		<order>
+						 			<owner-name>Брындина А.А.</owner-name>
+						 			<car-name>GLC 300 4MATIC, гос. номер Нет</car-name>
+						 			<start-repair>-</start-repair>
+						 			<condition>Ожидание приема</condition>
+						 			<finish-repair>16:29</finish-repair>
+						 		</order>
+						 		<order>
+						 			<owner-name>Зубова Э.В.</owner-name>
+						 			<car-name>ML 350 4MATIC, гос. номер P881PP93</car-name>
+						 			<start-repair>10:20</start-repair>
+						 			<condition>Ожидание приема</condition>
+						 			<finish-repair>19:40</finish-repair>
+						 		</order>
+						 		<order>
+						 			<owner-name>Ашикян А.О.</owner-name>
+						 			<car-name>GL 350 CDI 4MATIC, гос. номер H777YK93</car-name>
+						 			<start-repair>12:09</start-repair>
+						 			<condition>Ожидание приема</condition>
+						 			<finish-repair>12:15</finish-repair>
+						 		</order>
+						 		<order>
+						 			<owner-name>Сараев Г.А.</owner-name>
+						 			<car-name>C 180, гос. номер H214OE123</car-name>
+						 			<start-repair>13:00</start-repair>
+						 			<condition></condition>
+						 			<finish-repair>13:59</finish-repair>
+						 		</order>
+						 		<order>
+						 			<owner-name>Зороглян Р.П.</owner-name>
+						 			<car-name>C 180, гос. номер H900XB93</car-name>
+						 			<start-repair>16:30</start-repair>
+						 			<condition>Ожидание приема</condition>
+						 			<finish-repair>18:10</finish-repair>
+						 		</order>
+						 		<order>
+						 			<owner-name>Чапурин В.М.</owner-name>
+						 			<car-name>GLK 220 CDI 4MATIC, гос. номер Нет</car-name>
+						 			<start-repair>17:00</start-repair>
+						 			<condition>Согласование с клиентом</condition>
+						 			<finish-repair>20:00</finish-repair>
+						 		</order>
+						 		<order>
+						 			<owner-name>ФСО Служба охраны</owner-name>
+						 			<car-name>ML 500 4MATIC, гос. номер O593MX93</car-name>
+						 			<start-repair>18:16</start-repair>
+						 			<condition>Приемка</condition>
+						 			<finish-repair>23:16</finish-repair>
+						 		</order>
+						 		<order>
+						 			<owner-name>Тарасюк Е.М.</owner-name>
+						 			<car-name>C 250 Седан, гос. номер C400EC123</car-name>
+						 			<start-repair>-</start-repair>
+						 			<condition>Ожидание приема</condition>
+						 			<finish-repair>19:30</finish-repair>
+						 		</order>
+						 		<order>
+						 			<owner-name>Котикова Е.А.</owner-name>
+						 			<car-name>GLS 350 BlueTEC 4MATIC, гос. номер E411KX23</car-name>
+						 			<start-repair>12:40</start-repair>
+						 			<condition></condition>
+						 			<finish-repair>14:00</finish-repair>
+						 		</order>
+						 	</orders>
+						 </worker>
+						 </rss>
