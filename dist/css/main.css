@@ -1,11 +1,13 @@
 body, html {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  height: 100%; }
 
 body {
   background-color: #000; }
 
 .page {
+  height: 100%;
   overflow-x: hidden;
   font-family: Corporate, OpenSans, serif; }
 
@@ -38,6 +40,17 @@ body {
 .main {
   margin: 0;
   padding-top: 5em; }
+  .main .warning {
+    position: relative;
+    width: 70%;
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 0.5em;
+    vertical-align: center;
+    text-align: center;
+    font-size: 3em;
+    border-left: 0.2em solid #ccc;
+    margin: auto; }
   .main .worker {
     display: inline-block;
     text-align: center;
@@ -69,13 +82,23 @@ body {
           border-right: 0.01em solid #ccc; }
         .main .worker .worker-order .order-details td:last-child {
           border: none; }
-        .main .worker .worker-order .order-details .car-name {
-          width: 33%; }
-        .main .worker .worker-order .order-details .owner-name {
-          width: 20%; }
+        .main .worker .worker-order .order-details .car-number {
+          width: 25%;
+          padding-left: 2%;
+          padding-right: 2%; }
+          .main .worker .worker-order .order-details .car-number table {
+            width: 100%; }
+          .main .worker .worker-order .order-details .car-number td {
+            height: 1em;
+            width: 2em;
+            border: 1px solid #ccc; }
+          .main .worker .worker-order .order-details .car-number .region {
+            font-size: 0.8em; }
+          .main .worker .worker-order .order-details .car-number .flag {
+            background-color: #ccc; }
         .main .worker .worker-order .order-details .condition {
-          width: 25%; }
+          width: 45%; }
         .main .worker .worker-order .order-details .start-repair {
-          width: 11%; }
+          width: 15%; }
         .main .worker .worker-order .order-details .finish-repair {
-          width: 11%; }
+          width: 15%; }
