@@ -1,4 +1,5 @@
 var COUNT_OF_ORDERS = 5;
+var TIME_OF_CIRCLE = 40000;
 
 function showWorker(worker, number) {
 	if (worker.orders.length <= COUNT_OF_ORDERS)
@@ -51,9 +52,7 @@ function showWithDinamicOrders(worker, number) {
 	response+= '</div></div>'; // Закрытие тэга worker и dinamic
 	$('.main').append(response); // Выводим на экран
 	
-	var timeOfCircle = 10000;
 	repeat();
-	setInterval(repeat, timeOfCircle);
 	
 	function repeat() {
 		var timeOfIter = 500, index = 1;
@@ -61,13 +60,13 @@ function showWithDinamicOrders(worker, number) {
 			setTimeout(updateOrder, timeOfIter, i, index);
 			timeOfIter+= 500, index++;
 		};
-		timeOfIter = timeOfCircle / 2, index = 1;
+		timeOfIter = TIME_OF_CIRCLE / 2, index = 1;
 		for (var i = COUNT_OF_ORDERS; i < COUNT_OF_ORDERS * 2; i++) {
 			setTimeout(updateOrder, timeOfIter, i, index);
 			timeOfIter+= 500, index++;
 		};
 		if (orders.length > COUNT_OF_ORDERS * 2) {
-			timeOfIter = timeOfCircle / 2, index = 1;
+			timeOfIter = TIME_OF_CIRCLE - 10000, index = 1;
 		  for (var i = COUNT_OF_ORDERS * 2; i < COUNT_OF_ORDERS * 3; i++) {
 				setTimeout(updateOrder, timeOfIter, i, index);
 				timeOfIter+= 500, index++;
@@ -91,6 +90,9 @@ function showVideo() {
 	$('.bgvideo').toggle()
 							 .get(0).play();
 };
+function getTimeOfCircle() {
+		return TIME_OF_CIRCLE;
+	};
 function showTime() {
 	var now = new Date();
 	$('.time p').html(now.getDate() + ' ' + translateMonth(now.getMonth()) +

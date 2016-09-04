@@ -8,7 +8,7 @@ function Order(carNumber, carRegion, condition, startRepair, finishRepair) {
 function getTemplateForOrder(order) {
 	var answer = '<table class="worker-order">\
 								<tr class="order-details">\
-									<td class="car-number"><table><tr><td rowspan=2>' + order.carNumber +
+									<td class="car-number"><table><tr><td class="number" rowspan=2>' + order.carNumber +
 									'</td><td class="region">' + order.carRegion + '</td></tr>' +
 									'<tr><td class="flag"></td></tr></table></td>\
 									<td class="start-repair">' + order.startRepair + '</td>\

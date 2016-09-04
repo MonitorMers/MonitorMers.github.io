@@ -1,6 +1,5 @@
-function main() {
-	setInterval(showTime, 1000);// Выводим время
-	// setInterval(showVideo, 10000);
+function updateData() {
+	$('.main').empty();
 	var workers = getWorkers(); // Получаем рабочих
 	var countWorkers = workers.length;
 	if (countWorkers == 1) {
@@ -20,5 +19,10 @@ function main() {
 	};
 };
 $(document).ready(function () {
-	main();
+	setInterval(showTime, 1000);
+	// setInterval(showVideo, 10000); 
+	updateData();
+	setInterval(function() {
+		updateData();
+	}, getTimeOfCircle());
 });
