@@ -6,10 +6,7 @@ var gulp         = require('gulp'),
 		cssnano      = require('gulp-cssnano'),
 		rename       = require('gulp-rename'),
 		del          = require('del'),
-		git          = require('git'),
 		jade         = require('gulp-jade'),
-		// imagemin     = require('gulp-imagemin'),
-		// pngquant     = require('imagemin-pngquant'),
 		cache        = require('gulp-cache'),
 		autoprefixer = require('gulp-autoprefixer'),
 		promise      = require('es6-promise').Promise; //Не работал cssnano
@@ -72,16 +69,6 @@ gulp.task('clean', function () {
 gulp.task('clear', function() {
 	return cache.clearAll();
 })
-// git.task('img', function () {
-// 	return gulp.src('app/img/**/*')
-// 						 .pipe(cache(imagemin({
-// 						 	interlaced: true,
-// 						 	progressive: true,
-// 						 	svgoPlugins: [{ remove: false }],
-// 						 	use: [pngquant()]
-// 						 })))
-// 						 .pipe(gulp.dest('dest/img'));
-// });
 gulp.task('build', ['clean', 'templates','sass', 'scripts'], function () {
 	
 	var buildCss = gulp.src([

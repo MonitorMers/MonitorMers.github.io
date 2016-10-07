@@ -5,7 +5,7 @@ function Worker(avatar, name, orders) {
 };
 function getTemplateForWorker(worker, number) {
 	var answer = '<div class="worker ' + number + '"><div class="worker-personal"> \
-								<img src="app/img/' + worker.avatar + '.jpg" alt="worker-avatar" \
+								<img src="img/' + worker.avatar + '.jpg" alt="worker-avatar" \
 								class="worker-avatar img-thumbnail"> \
 								<h2 class="worker-name">'+ worker.name + '</h2></div>';
 	return answer;

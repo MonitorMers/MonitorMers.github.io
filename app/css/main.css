@@ -56,14 +56,12 @@ body {
     text-align: center;
     width: 43%;
     padding: 0; }
-    .main .worker .worker-personal {
-      margin-bottom: 3em; }
-      .main .worker .worker-personal .worker-avatar {
-        width: 6em;
-        height: 6em; }
-      .main .worker .worker-personal .worker-name {
-        font-size: 1.8em;
-        color: #fff; }
+    .main .worker .worker-personal .worker-avatar {
+      width: 6em;
+      height: 6em; }
+    .main .worker .worker-personal .worker-name {
+      font-size: 2em;
+      color: #fff; }
     .main .worker .worker-order {
       position: relative;
       width: 100%;
@@ -82,27 +80,51 @@ body {
           border-right: 0.01em solid #ccc; }
         .main .worker .worker-order .order-details td:last-child {
           border: none; }
-        .main .worker .worker-order .order-details .car-number {
-          width: 30%;
-          padding-left: 2%;
-          padding-right: 2%; }
-          .main .worker .worker-order .order-details .car-number table {
-            margin: auto; }
-            .main .worker .worker-order .order-details .car-number table td {
-              height: 1em;
-              border: 1px solid #ccc; }
-            .main .worker .worker-order .order-details .car-number table tr {
-              width: 100%; }
-            .main .worker .worker-order .order-details .car-number table .number {
-              padding: 0 3px; }
-            .main .worker .worker-order .order-details .car-number table .region {
-              padding: 0 3px;
-              font-size: 0.8em; }
-            .main .worker .worker-order .order-details .car-number table .flag {
-              background-color: #ccc; }
+        .main .worker .worker-order .order-details .car-number table {
+          margin: auto;
+          width: 5em; }
+          .main .worker .worker-order .order-details .car-number table td {
+            height: 1em;
+            border: 1px solid #ccc; }
+          .main .worker .worker-order .order-details .car-number table tr {
+            width: 100%; }
+          .main .worker .worker-order .order-details .car-number table .number {
+            padding: 0 3px;
+            font-size: 0.8em; }
+          .main .worker .worker-order .order-details .car-number table .region {
+            padding: 0 3px;
+            font-size: 0.7em; }
+          .main .worker .worker-order .order-details .car-number table .flag {
+            background-color: #ccc; }
+        .main .worker .worker-order .order-details .car-model {
+          font-size: 0.7em;
+          width: 20%; }
         .main .worker .worker-order .order-details .condition {
-          width: 40%; }
+          width: 25%; }
         .main .worker .worker-order .order-details .start-repair {
           width: 15%; }
         .main .worker .worker-order .order-details .finish-repair {
           width: 15%; }
+  .main .headers {
+    position: relative;
+    width: 100%;
+    color: white;
+    margin-bottom: 0.5em;
+    vertical-align: center; }
+    .main .headers td {
+      padding-left: 0.8em;
+      padding-right: 0.2em; }
+    .main .headers .car-number {
+      width: 25%; }
+    .main .headers .car-model {
+      width: 20%; }
+    .main .headers .condition {
+      width: 25%; }
+    .main .headers .start-repair {
+      width: 15%; }
+    .main .headers .finish-repair {
+      width: 15%; }
+
+@media screen and (max-width: 1400px) {
+  .main .worker .order-details {
+    font-size: 1em; } }

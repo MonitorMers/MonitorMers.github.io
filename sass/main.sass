@@ -1,4 +1,4 @@
-// Common 
+// Common
 body, html
 	margin: 0
 	padding: 0
@@ -55,13 +55,12 @@ body
 		text-align: center
 		width: 43%
 		padding: 0
-		.worker-personal 
-			margin-bottom: 3em
+		.worker-personal
 			.worker-avatar
 				width: 6em
-				height: 6em 
+				height: 6em
 			.worker-name
-				font-size: 1.8em
+				font-size: 2em
 				color: #fff
 		.worker-order
 			position: relative
@@ -78,15 +77,13 @@ body
 					height: 4em
 					padding-left: 0.2em
 					padding-right: 0.2em
-					border-right: 0.01em solid #ccc					
+					border-right: 0.01em solid #ccc
 				td:last-child
 					border: none
 				.car-number
-					width: 30%
-					padding-left: 2%
-					padding-right: 2%
 					table
 						margin: auto
+						width: 5em
 						td
 							height: 1em
 							border: 1px solid #ccc
@@ -94,18 +91,42 @@ body
 							width: 100%
 						.number
 							padding: 0 3px
+							font-size: 0.8em
 						.region
 							padding: 0 3px
-							font-size: 0.8em
+							font-size: 0.7em
 						.flag
 							background-color: #ccc
+				.car-model
+					font-size: 0.7em
+					width: 20%
 				.condition
-					 width: 40%
+					width: 25%
 				.start-repair
-					 width: 15%
+					width: 15%
 				.finish-repair
-					 width: 15%
-@media screen and (max-width: 1360px)
-	.worker
-		
-
+					width: 15%
+	.headers
+		position: relative
+		width: 100%
+		color: white
+		margin-bottom: 0.5em
+		vertical-align: center
+		td
+			padding-left: 0.8em
+			padding-right: 0.2em
+		.car-number
+			width: 25%
+		.car-model
+			width: 20%
+		.condition
+			width: 25%
+		.start-repair
+			width: 15%
+		.finish-repair
+			width: 15%
+@media screen and (max-width: 1400px)
+	.main
+		.worker
+			.order-details
+				font-size: 1em
